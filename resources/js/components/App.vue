@@ -2,14 +2,14 @@
     <main>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <router-link to="/" class="navbar-brand" href="#">Laravel VUE CRUD Application </router-link>
+                <router-link to="/" class="navbar-brand" href="#">Laravel VUE CRUD App </router-link>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item" exact-active-class="active">
                             <router-link to="/" class="nav-link">Home</router-link>
                         </li>
                         <li class="nav-item" exact-active-class="active">
-                            <router-link to="/product" class=" nav-link">Product</router-link>
+                            <router-link to="/product" class=" nav-link">All Products</router-link>
                         </li>
                     </ul>
                 </div>

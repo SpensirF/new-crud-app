@@ -32,13 +32,6 @@
                                     <input type="text" class="form-control" v-model="product.code">
                                 </div>
                             </div>
-                            <!-- <div class="col-12 mb-2">
-                                <div class="form-group">
-                                    <label>Status</label>
-                                    <input  class="form-check-input" type="checkbox"  v-model="product.status">
-                                </div>
-                            </div> -->
-                            
                             <div>
                                 <label>Status:</label>
                                 <b-form-select v-model="product.status" class="mb-3">
